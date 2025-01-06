@@ -46,7 +46,11 @@ noisereduce
 ### 2. Host: 
 ● 選擇script的按鈕 Load script按鈕 Start按鈕 Assign/Reassign按鈕
 
-● 顯示每一ROUND成功率
+● 顯示每一ROUND成功率以及轉譯後的文本
+### 3. Client: 
+● 統一更改Host Address
+
+● 顯示被Assign的角色(發聲或收聲)、對話內容、時間戳以及回傳音檔完整過程
 
 ## 常見問題解決方案
 

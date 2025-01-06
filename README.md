@@ -45,6 +45,7 @@ noisereduce
 ### 1. Host and client介面區別方式，利用帳號區分? 或是其他方式?
 ### 2. Host: 
 ● 選擇script的按鈕 Load script按鈕 Start按鈕 Assign/Reassign按鈕
+
 ● 顯示每一ROUND成功率
 
 ## 常見問題解決方案

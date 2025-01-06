@@ -41,6 +41,11 @@ pyttsx3,
 PyAudio, 
 noisereduce
 
+## UI討論
+### 1. Host and client介面區別方式，利用帳號區分或是其他方式
+### 2. Host:
+
+
 ## 常見問題解決方案
 
 ### 1. libiomp5.dylib 初始化問題

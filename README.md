@@ -14,7 +14,7 @@
 ```bash
 git clone https://github.com/imlacha/tcpip_for_sts.git
 ```
-或直接下載 ZIP 檔案
+or 直接下載 ZIP 檔案 or 隨身碟直接複製到dell本地 
 
 ### 2. 環境設定
 根據機器角色選擇安裝對應的套件:
@@ -41,16 +41,36 @@ pyttsx3,
 PyAudio, 
 noisereduce
 
-## UI討論
-### 1. Host and client介面區別方式，利用帳號區分? 或是其他方式?
-### 2. Host: 
-● 選擇script的按鈕 Load script按鈕 Start按鈕 Assign/Reassign按鈕
+##使用說明
 
-● 顯示每一ROUND成功率以及轉譯後的文本
-### 3. Client: 
-● 統一更改Host Address
-
-● 顯示被Assign的角色(發聲或收聲)、對話內容、時間戳以及回傳音檔完整過程
+### 1. HOST端執行程式，開啟服務連線
+```bash
+python host.py
+```
+### 2. client端執行程式，連線至伺服器端
+```bash
+python client.py
+```
+### 3. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+```bash
+load your_scriptfilename.xlsx
+```
+### 4. 依據script檔案的內容，將角色分配給client端
+```bash
+load your_scriptfilename.xlsx
+```
+### 5. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+```bash
+load your_scriptfilename.xlsx
+```
+### 6. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+```bash
+load your_scriptfilename.xlsx
+```
+### 7. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+```bash
+load your_scriptfilename.xlsx
+```
 
 ## 常見問題解決方案
 

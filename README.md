@@ -41,7 +41,7 @@ pyttsx3,
 PyAudio, 
 noisereduce
 
-##使用說明
+## 使用說明
 
 ### 1. HOST端執行程式，開啟服務連線
 ```bash

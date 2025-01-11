@@ -51,25 +51,21 @@ python host.py
 ```bash
 python client.py
 ```
-### 3. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+### 3. 準備script檔，可以是excel或json格式(HOST端輸入)
 ```bash
 load your_scriptfilename.xlsx
 ```
-### 4. 依據script檔案的內容，將角色分配給client端
+### 4. 依據script檔案的內容，將角色分配給client端(HOST端輸入)
 ```bash
-load your_scriptfilename.xlsx
+assign
 ```
-### 5. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+### 5. 各台client端拿到角色後即得知接下來要做什麼動作 ex.發聲或收音 故可開始執行 (HOST端輸入)
 ```bash
-load your_scriptfilename.xlsx
+start
 ```
-### 6. 準備script檔，可以是excel或json格式，並在HOST端將其載入
+### 6. 如想關閉連線，可輸入以下(HOST端輸入)
 ```bash
-load your_scriptfilename.xlsx
-```
-### 7. 準備script檔，可以是excel或json格式，並在HOST端將其載入
-```bash
-load your_scriptfilename.xlsx
+stop
 ```
 
 ## 常見問題解決方案

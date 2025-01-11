@@ -41,6 +41,21 @@ pyttsx3,
 PyAudio, 
 noisereduce
 
+## 執行前注意
+
+1. 確保所有設備在同一網域下
+
+2. 切換至正確目錄:
+```bash
+cd tcpiptest
+```
+
+3. 確認 Host IP:
+```bash
+ipconfig /all    # 查看 IPv4 位址
+```
+確認完IP位址後要將client端預連線位址更改為Host IP
+
 ## 使用說明
 
 ### 1. HOST端執行程式，開啟服務連線
@@ -83,29 +98,6 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 2. 確認是否有 cublas64_12.dll
 3. 複製 cublas64_12.dll 並重新命名為 cublas64_11.dll
 
-## 執行說明
-
-1. 確保所有設備在同一網域下
-
-2. 切換至正確目錄:
-```bash
-cd tcpiptest
-```
-
-3. 確認 Host IP:
-```bash
-ipconfig /all    # 查看 IPv4 位址
-```
-
-4. 啟動服務:
-- Host 端:
-```bash
-python host-new.py
-```
-- Client 端:
-```bash
-python cli.py    # 記得修改連線位址為 host 端 IP
-```
 
 ## 注意事項
 - Host 端建議使用具有 GPU 的設備

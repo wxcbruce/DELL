@@ -7,6 +7,8 @@
 - 設定 FFmpeg 環境變數
 - 安裝 VSCode
 - VSCode Python 擴充套件
+- 準備Openai的API Key: 首先註冊openai
+
 
 ## 安裝步驟
 

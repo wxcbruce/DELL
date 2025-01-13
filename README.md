@@ -7,7 +7,7 @@
 - 設定 FFmpeg 環境變數
 - 安裝 VSCode
 - VSCode Python 擴充套件
-- 準備Openai的API Key: 首先註冊openai會員，進入 (https://platform.openai.com/chat-completions)平台後，找到左方API KEY選項，點選create new secret key，創建完成後請記得"一定要複製"，因為介面一關掉之後就沒辦法再複製API KEY了
+- 準備Openai的API Key: 首先註冊openai會員，進入 ([平台](https://platform.openai.com/chat-completions)) 後，找到左方API KEY選項，點選create new secret key，創建完成後請記得"一定要複製"，因為介面一關掉之後就沒辦法再複製API KEY了
 
 
 ## 安裝步驟
